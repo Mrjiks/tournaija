@@ -24,7 +24,7 @@ const Navbar = () => {
           {pageLinks.map((link) => {
             return (
               <li key={link.id}>
-                <a href={link.href} className='nav-link' target='_blank' rel='noreferrer'>
+                <a href={link.href} className='nav-link'>
                   {link.text}
                 </a>
               </li>
