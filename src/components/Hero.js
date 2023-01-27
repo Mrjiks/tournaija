@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
   return (

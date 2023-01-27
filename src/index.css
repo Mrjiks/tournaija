@@ -570,3 +570,44 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  background-color: var(--clr-primary-8);
+  position: absolute;
+  top: 0px;
+  overflow: hidden;
+}
+.link-list {
+  text-transform: uppercase;
+  padding: 0.5rem;
+  color: var(--clr-white);
+}
+.link-item:hover {
+  color: var(--clr-white);
+  border-left: 2px solid white;
+}
+.close-btn {
+  margin-bottom: 1rem;
+}
+
+.close-btn button {
+  width: 50px;
+  border-radius: 4px;
+  color: white;
+  background-color: var(--clr-primary-8);
+  cursor: pointer;
+}
+
+.close-btn button:hover {
+  width: 50px;
+  border-radius: 4px;
+  color: var(--clr-primary-8);
+  color: red;
+  cursor: pointer;
+  transform: scale(1.2);
+}

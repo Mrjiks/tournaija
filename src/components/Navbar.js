@@ -1,14 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/logo.svg";
 import { pageLinks, socialLinks } from "../data";
+import MobileMenu from "./MobileMenu";
+import { useGlobalContext } from "./context";
 
 const Navbar = () => {
+  const { showMenu, closeMenu, toggleMenu } = useGlobalContext();
+
   return (
     <nav className='navbar'>
       <div className='nav-center'>
         <div className='nav-header'>
           <img src={logo} className='nav-logo' alt='backroads' />
-          <button type='button' className='nav-toggle' id='nav-toggle'>
+          <button
+            type='button'
+            className='nav-toggle'
+            id='nav-toggle'
+            onClick={() => toggleMenu(!showMenu)}>
             <i className='fas fa-bars'></i>
           </button>
         </div>
@@ -36,6 +44,7 @@ const Navbar = () => {
           })}
         </ul>
       </div>
+      {showMenu && <MobileMenu />}
     </nav>
   );
 };

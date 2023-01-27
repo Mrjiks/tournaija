@@ -16,6 +16,15 @@ const Footer = () => {
         })}
       </ul>
       <ul className='footer-icons'>
+        {/* {socialLinks.map((link) => {
+          return (
+            <li key={link.id}>
+              <a href={link.href} className='nav-icon' target='_blank' rel='noreferrer'>
+                <i className={link.icon}></i>
+              </a>
+            </li>
+          );
+        })} */}
         <li>
           <a href='https://www.twitter.com' target='_blank' className='footer-icon'>
             <i className='fab fa-facebook'></i>
