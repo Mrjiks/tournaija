@@ -13,18 +13,15 @@ const AppProvider = ({ children }) => {
       setMenu(() => !showMenu);
     }
   };
+  // prettier-ignore
   return (
-    <AppContext.Provider
-      value={{
-        showMenu,
-        toggleMenu,
-        closeMenu,
-      }}>
+    <AppContext.Provider value={{showMenu,toggleMenu,closeMenu,}}>
       {children}
     </AppContext.Provider>
   );
 };
-// custom hook for using the created contextAPI
+
+// custom hook for using the created contextAPI without frequently calling useContext
 export const useGlobalContext = () => {
   return useContext(AppContext);
 };
