@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../images/about.jpeg";
+import about from "../images/about.webp";
 import Title from "./Title";
 
 const About = () => {
@@ -12,17 +12,18 @@ const About = () => {
           <img src={about} className='about-photo' alt='awesome beach' />
         </div>
         <article className='about-info'>
-          <h3>explore the difference</h3>
+          <h3>Tour Naija</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam harum nam
-            cumque temporibus explicabo dolorum sapiente odio unde dolor?
+            Nigeria is a country with diverse cultures, rich history and breathtaking scenic beauty.
+            It is a land of incredible natural resources and stunning landscapes that are sure to
+            leave you in awe. From stunning beaches, to stunning waterfalls and stunning wildlife
+            parks, Nigeria has something to offer every tourist.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quisquam harum nam
-            cumque temporibus explicabo dolorum sapiente odio unde dolor?
+            Tour Naija helps you explore these immense richness of the African's biggest country.
           </p>
           <a href='#' className='btn'>
-            read more
+            Try our Service Today!
           </a>
         </article>
       </div>

@@ -8,8 +8,9 @@ const Hero = () => {
       <div className='hero-banner'>
         <h1>Beautiful Places to Explore In Nigeria</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae explicabo debitis est autem
-          dicta.
+          Nigeria is a country with diverse cultures, rich history and breathtaking scenic beauty.
+          It is a land of incredible natural resources and stunning landscapes that are sure to
+          leave you in awe.
         </p>
         <a href='#tours' className='btn hero-btn'>
           explore today!
