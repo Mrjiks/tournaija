@@ -46,7 +46,7 @@ export const tours = [
     date: "june 26th, 2023",
     title: "Yankari National Park",
     info: "Yankari National Park is one of the most popular tourist destinations in Nigeria. It is located in the northern part of Nigeria and is home to some of the most magnificent wildlife species in Africa. The park covers an area of about 2,244 km2 and is renowned for its hot springs and mineral baths. Some of the most popular wildlife species that you can spot in Yankari National Park include elephants, lions, baboons, buffalo and many others. Visitors to the park can also enjoy various activities such as game drives, bird watching, and camping.",
-    location: "Osun State",
+    location: "Bauchi state",
     duration: 6,
     cost: 2100,
   },
